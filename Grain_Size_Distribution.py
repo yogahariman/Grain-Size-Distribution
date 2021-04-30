@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 resolution=0.9243548387096774; # micron/pixel
 
 # Read image
-img_original = cv2.imread("/Drive/D/Work_Python/Grain_Size_Analysis/Images/image_01.png")
+img_original = cv2.imread("images/image_01.png")
 #%% convert image rgb to gray scale
 img_gray = cv2.cvtColor(img_original, cv2.COLOR_BGR2GRAY)
 #%%
